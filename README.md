@@ -54,3 +54,10 @@ git remote add origin https://github.com/MatiCasiba/repaso-ramas.git
 git remote -v
 ```
 
+# Subo al remoto el repositorio local
+
+```sh
+git push -u origin main # La primera vez
+git push
+```
+
