@@ -40,3 +40,17 @@ git config --global core.editor "code -wait"
 git log #version larga
 git log --oneline #version corta
 ```
+
+# Agregrar un remoto a mi repositorio local
+
+```sh
+git remtoe add origin <url-al-repo-remoto>
+git remote add origin https://github.com/MatiCasiba/repaso-ramas.git
+```
+
+# Para ver sis e agrego el repo remoto
+
+```sh
+git remote -v
+```
+
