@@ -10,5 +10,20 @@ git init
 # Listo el estado de los archivos
 
 ```sh
+git status
+```
 
+# Haciendo un coommit
+1. Agrego al area de stagin, los archivos que necesito que formen parte del commit
+
+```sh
+git add <nombre-arcivo>
+git add <nombre-archivo> <nombre-archivo> <nombre-archivo>
+git add . #Agrega todos los archivos que tengo en el workin directory (md)
+```
+
+2. Hago el commit
+
+```sh
+git commit -m "Mensaje descriptivo"
 ```
